@@ -1,0 +1,67 @@
+/* Google font --> font name --> "poppins"  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==============================
+   Allgemeine Stile
+   ============================== */
+
+/* Setzt die Hintergrundfarbe für die gesamte Seite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black; /* Blauer Hintergrund für den gesamten Seiteninhalt */
+}
+
+/* Styling für den Header-Bereich */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 11%;
+    background-color: burlywood;
+}
+.header .logo {
+    font-size: 31px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header .navbar a{
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    margin-left: 37px;
+}
+
+.header .navbar a:hover,
+.navbar a.active 
+{
+    color: black;
+}
+
+/* ==============================
+   Footer
+   ============================== */
+
+/* Styling für den Footer-Bereich */
+footer {
+    background-color: #333; /* Dunkelgrauer Hintergrund */
+    color: white; /* Weißer Text */
+    text-align: center; /* Zentrierter Text */
+    padding: 10px 0; /* Vertikaler Innenabstand */
+    position: fixed; /* Flexibles Layout */
+    bottom: 0; /* Platzierung am unteren Rand */
+    width: 100%; /* Volle Breite */
+}

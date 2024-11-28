@@ -54,7 +54,7 @@ contact.html - Kontaktseite
 
 ## 📬 Kontakt
 Falls du Feedback oder Fragen hast, erreichst du mich über:
-- **E-Mail:** [n.sterchi@fam-sterchi.ch](mailto:n.sterchi@fam-sterchi.ch)
+- **E-Mail:** [codinglobe@gmail.com](mailto:codinglobe@gmail.com)
 - **GitHub:** [https://github.com/codinglobe](https://github.com/codinglobe)
 
 ---

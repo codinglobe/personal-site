@@ -1,0 +1,25 @@
+.sources {
+    color: white;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px 11%;
+}
+
+.sources .sources-section {
+    max-width: 1000px;
+    list-style-type: none;
+}
+
+.sources-section h1 {
+    font-size: 57px;
+}
+
+.sources-section p {
+    font-size:  17px;
+}
+
+.sources-section li {
+    font-size: 17px;
+    text-decoration: none;
+}
